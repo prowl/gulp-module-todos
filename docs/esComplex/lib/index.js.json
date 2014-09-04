@@ -1,0 +1,202 @@
+{
+  "aggregate": {
+    "sloc": {
+      "logical": 17,
+      "physical": 36
+    },
+    "cyclomatic": 1,
+    "halstead": {
+      "operators": {
+        "distinct": 8,
+        "total": 43,
+        "identifiers": [
+          "var",
+          "=",
+          "()",
+          "function",
+          ".",
+          "{}",
+          ":",
+          "return"
+        ]
+      },
+      "operands": {
+        "distinct": 34,
+        "total": 56,
+        "identifiers": [
+          "\"use strict\"",
+          "todo",
+          "\"gulp-todo\"",
+          "require",
+          "path",
+          "\"path\"",
+          "fs",
+          "\"fs\"",
+          "gulp",
+          null,
+          "config",
+          "todoSetup",
+          "gulpRef",
+          "conf",
+          "\"todo\"",
+          0,
+          "todoTask",
+          "task",
+          "todoFile",
+          "root",
+          "\"todo.md\"",
+          "resolve",
+          "\"\"",
+          "<anonymous>",
+          "encoding",
+          "\"UTF-8\"",
+          "writeFileSync",
+          "\"./\"",
+          "dest",
+          "fileName",
+          "src",
+          "pipe",
+          "module",
+          "exports"
+        ]
+      },
+      "length": 99,
+      "vocabulary": 42,
+      "difficulty": 6.588235294117647,
+      "volume": 533.8394248550973,
+      "effort": 3517.0597402218173,
+      "bugs": 0.17794647495169907,
+      "time": 195.39220779010097
+    },
+    "params": 2,
+    "line": 1,
+    "cyclomaticDensity": 5.88235294117647
+  },
+  "functions": [
+    {
+      "name": "todoSetup",
+      "sloc": {
+        "logical": 3,
+        "physical": 6
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 3,
+          "total": 4,
+          "identifiers": [
+            "=",
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 8,
+          "total": 11,
+          "identifiers": [
+            "gulpRef",
+            "conf",
+            "gulp",
+            "config",
+            "\"todo\"",
+            0,
+            "todoTask",
+            "task"
+          ]
+        },
+        "length": 15,
+        "vocabulary": 11,
+        "difficulty": 2.0625,
+        "volume": 51.89147427955947,
+        "effort": 107.0261657015914,
+        "bugs": 0.01729715809318649,
+        "time": 5.945898094532855
+      },
+      "params": 2,
+      "line": 16,
+      "cyclomaticDensity": 33.33333333333333
+    },
+    {
+      "name": "todoTask",
+      "sloc": {
+        "logical": 5,
+        "physical": 9
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 7,
+          "total": 22,
+          "identifiers": [
+            "var",
+            "=",
+            "()",
+            ".",
+            "{}",
+            ":",
+            "return"
+          ]
+        },
+        "operands": {
+          "distinct": 19,
+          "total": 26,
+          "identifiers": [
+            "todoFile",
+            "config",
+            "root",
+            "\"todo.md\"",
+            "path",
+            "resolve",
+            "\"\"",
+            "<anonymous>",
+            "encoding",
+            "\"UTF-8\"",
+            "fs",
+            "writeFileSync",
+            "\"./\"",
+            "gulp",
+            "dest",
+            "fileName",
+            "todo",
+            "src",
+            "pipe"
+          ]
+        },
+        "length": 48,
+        "vocabulary": 26,
+        "difficulty": 4.7894736842105265,
+        "volume": 225.62110647077245,
+        "effort": 1080.606352044226,
+        "bugs": 0.07520703549025748,
+        "time": 60.03368622467922
+      },
+      "params": 0,
+      "line": 26,
+      "cyclomaticDensity": 20
+    }
+  ],
+  "dependencies": [
+    {
+      "line": 2,
+      "path": "gulp-todo",
+      "type": "CommonJS"
+    },
+    {
+      "line": 3,
+      "path": "path",
+      "type": "CommonJS"
+    },
+    {
+      "line": 4,
+      "path": "fs",
+      "type": "CommonJS"
+    }
+  ],
+  "maintainability": 74.09354511388898,
+  "params": 1,
+  "meta": {
+    "analysis": "gulp-escomplex",
+    "analysisVersion": "1.0.0",
+    "fileName": "lib/index.js"
+  }
+}
